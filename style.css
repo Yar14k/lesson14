@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    
+}
+h1{
+    color: aliceblue;
+}
+.links {
+    padding: 0;
+}
+ .link{
+ display: block;
+ list-style-type: none;
+ line-height: 1rem;
+ border-top: 1px solid white;
+ padding: 10px;
+
+} 
+
+.header{
+    background: rgb(60,60,60);
+    width: 400px;
+    height:  200px;
+    border:  solid 4px black;
+}
+h2{
+    color: black;
+}
+
+hr{
+    color: white;
+}
+.link-m{
+    text-decoration: none;
+    color: white;
+}
+.main-block{
+    background: white;
+}
+.first-part{
+    background-color:rgb(60,60,60);
+    width: 400px;
+}
+.second-part{
+    background: white;
+    width: 400px;
+    
+}
+.spisok-1{
+    text-decoration: none;
+    margin-top: 30px;
+    
+}
+.header-1{
+    color: white;
+}
+.first-block{
+    border: 3px solid black;
+    width: 400px;
+    border: solid 4px black;
+}
