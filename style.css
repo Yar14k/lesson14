@@ -2,9 +2,7 @@
 *{
     font-family: 'Montserrat', sans-serif;
 }
-body{
-    
-}
+
 h1{
     color: aliceblue;
 }
@@ -12,7 +10,7 @@ h1{
     padding: 0;
 }
  .link{
- display: block;
+
  list-style-type: none;
  line-height: 1rem;
  border-top: 1px solid white;
@@ -22,17 +20,14 @@ h1{
 
 .header{
     background: rgb(60,60,60);
-    width: 400px;
-    height:  200px;
+    width: auto;
+
     border:  solid 4px black;
 }
 h2{
     color: black;
 }
 
-hr{
-    color: white;
-}
 .link-m{
     text-decoration: none;
     color: white;
@@ -40,25 +35,55 @@ hr{
 .main-block{
     background: white;
 }
-.first-part{
-    background-color:rgb(60,60,60);
-    width: 400px;
-}
-.second-part{
-    background: white;
-    width: 400px;
-    
-}
-.spisok-1{
-    text-decoration: none;
-    margin-top: 30px;
-    
-}
+
 .header-1{
     color: white;
 }
-.first-block{
+.enumeration{
     border: 3px solid black;
-    width: 400px;
-    border: solid 4px black;
+    list-style-type: none;
+    width: auto;  
+    margin-top: 30px;
+    display: flex;
+     flex-direction: column;
+  
+}
+.Card {
+    background-color: rgb(60,60,60);
+    color: white; 
+    padding: 0;
+    margin: 0;
+    
+    
+}
+.Card-text{
+   background-color: white;
+  
+}
+.end{
+    background-color: rgb(60,60,60);
+    width: auto;
+    height: auto;
+    border: 3px solid black;
+
+}
+
+.end-text{
+    color: white;
+}
+@media screen and (min-width:40rem)
+{
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header .links{
+        display: flex;
+    }
+}
+@media screen and(min-width:70rem){
+    ul{
+        grid-template-columns: 1fr 1fr;
+    }
 }
